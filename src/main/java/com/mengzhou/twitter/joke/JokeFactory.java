@@ -14,13 +14,16 @@ public class JokeFactory {
 
     private static final List<String> BUYING_JOKES = ImmutableList.of(
             "小吴买了一张彩票",
-            "巴韭特说买股票不如买彩票，所以小吴买了一张。"
+            "巴韭特说买股票不如买彩票，所以小吴买了一张。",
+            "小吴亲测，用AmEx卡买彩票中奖率比较高，所以今天又用AmEx买了一张。",
+            "美股大跌，小吴只要割肉转投彩票。"
     );
 
     private static final List<String> REDEEMING_JOKES = ImmutableList.of(
             "小吴并没有中奖。",
             "小吴还没有中奖，请再买一张。",
-            "小吴的彩票说请再接再厉。"
+            "小吴的彩票说请再接再厉。",
+            "小吴用AmEx买的彩票没有中奖。"
     );
 
     public static String getJoke(ChronoLocalDate localDate) {
