@@ -16,7 +16,7 @@ public class JokeFactory {
             "小吴买了一张彩票",
             "巴韭特说买股票不如买彩票，所以小吴买了一张。",
             "小吴亲测，用AmEx卡买彩票中奖率比较高，所以今天又用AmEx买了一张。",
-            "美股大跌，小吴只要割肉转投彩票。"
+            "美股大跌，小吴割肉转投彩票。"
     );
 
     private static final List<String> REDEEMING_JOKES = ImmutableList.of(
